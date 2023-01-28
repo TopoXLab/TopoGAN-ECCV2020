@@ -15,7 +15,9 @@ Most existing generative adversarial networks (GANs) focus on generating realist
 <img src="TopoGAN_framework.png" alt="drawing" width="60%"  />
 </p>
 
-TopoGAN is tested under Windows10 and ran on jupyter notebook with pytorch support.  
+TopoGAN is tested under Windows10 and ran on jupyter notebook with pytorch support.
+
+Update 1/28/2023: You will need an external library for the computation of persistent homology for TopoGAN to work. Please look into our repo (https://github.com/TopoXLab/PersistentHomologyComputation). If you encounter any issues while compiling, please contact the first author.
 
 ### 1. Requirements ###
 TopoGAN requires following libraries to run:
